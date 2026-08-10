@@ -28,11 +28,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
-        },
-        {
           "anchor": "Changelog",
           "icon": "scroll-text",
           "href": "https://www.mintlify.com/docs/changelog"
@@ -45,17 +40,28 @@
       ]
     },
     "directory": "card",
-    "groups": [
+    "languages": [
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
-        "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+        "language": "en",
+        "default": true,
+        "groups": [
+          {
+            "group": "Getting started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": ["en/welcome"]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "groups": [
+          {
+            "group": "Bien démarrer",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": ["fr/bienvenue"]
+          }
         ]
       }
     ]
