@@ -4,9 +4,9 @@
   "name": "docs.mutfaaq.com",
   "description": "Step-by-step guides for Mutfaaq.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#6D28D9"
   },
   "favicon": "/favicon.ico",
   "icons": {
