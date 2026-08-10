@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "docs.mutfaaq.com",
+  "name": "Mutfaaq Docs",
   "description": "Step-by-step guides for Mutfaaq.",
   "colors": {
     "primary": "#7C3AED",
