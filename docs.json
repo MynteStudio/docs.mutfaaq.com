@@ -36,6 +36,41 @@
             "icon": "rocket",
             "expanded": true,
             "pages": ["en/welcome"]
+          },
+          {
+            "group": "Menus",
+            "icon": "book-open",
+            "pages": ["en/menus/overview"]
+          },
+          {
+            "group": "Products",
+            "icon": "utensils",
+            "pages": ["en/products/overview"]
+          },
+          {
+            "group": "Publishing and QR codes",
+            "icon": "qr-code",
+            "pages": ["en/publishing/overview"]
+          },
+          {
+            "group": "Restaurant settings",
+            "icon": "store",
+            "pages": ["en/restaurant-settings/overview"]
+          },
+          {
+            "group": "Team",
+            "icon": "users",
+            "pages": ["en/team/overview"]
+          },
+          {
+            "group": "Subscription",
+            "icon": "credit-card",
+            "pages": ["en/subscription/overview"]
+          },
+          {
+            "group": "Help",
+            "icon": "circle-help",
+            "pages": ["en/help/overview"]
           }
         ]
       },
@@ -47,6 +82,41 @@
             "icon": "rocket",
             "expanded": true,
             "pages": ["fr/bienvenue"]
+          },
+          {
+            "group": "Menus",
+            "icon": "book-open",
+            "pages": ["fr/menus/vue-ensemble"]
+          },
+          {
+            "group": "Produits",
+            "icon": "utensils",
+            "pages": ["fr/produits/vue-ensemble"]
+          },
+          {
+            "group": "Publication et QR codes",
+            "icon": "qr-code",
+            "pages": ["fr/publication/vue-ensemble"]
+          },
+          {
+            "group": "Paramètres du restaurant",
+            "icon": "store",
+            "pages": ["fr/parametres-restaurant/vue-ensemble"]
+          },
+          {
+            "group": "Équipe",
+            "icon": "users",
+            "pages": ["fr/equipe/vue-ensemble"]
+          },
+          {
+            "group": "Abonnement",
+            "icon": "credit-card",
+            "pages": ["fr/abonnement/vue-ensemble"]
+          },
+          {
+            "group": "Aide",
+            "icon": "circle-help",
+            "pages": ["fr/aide/vue-ensemble"]
           }
         ]
       }
