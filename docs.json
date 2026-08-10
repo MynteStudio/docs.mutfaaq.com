@@ -65,6 +65,26 @@
               "en/venue/roles-and-permissions",
               "en/venue/transfer-ownership"
             ]
+          },
+          {
+            "group": "Links & QR codes",
+            "icon": "qr-code",
+            "expanded": false,
+            "pages": [
+              "en/links-and-qr-codes/public-menu-link",
+              "en/links-and-qr-codes/tables",
+              "en/links-and-qr-codes/download-and-print",
+              "en/links-and-qr-codes/qr-stands"
+            ]
+          },
+          {
+            "group": "Account & billing",
+            "icon": "circle-user-round",
+            "expanded": false,
+            "pages": [
+              "en/account-and-billing/account-settings",
+              "en/account-and-billing/subscription-and-billing"
+            ]
           }
         ]
       },
@@ -104,6 +124,26 @@
               "fr/etablissement/membres-equipe",
               "fr/etablissement/roles-et-autorisations",
               "fr/etablissement/transferer-la-propriete"
+            ]
+          },
+          {
+            "group": "Liens et codes QR",
+            "icon": "qr-code",
+            "expanded": false,
+            "pages": [
+              "fr/liens-et-codes-qr/lien-public-menu",
+              "fr/liens-et-codes-qr/tables",
+              "fr/liens-et-codes-qr/telecharger-et-imprimer",
+              "fr/liens-et-codes-qr/supports-qr"
+            ]
+          },
+          {
+            "group": "Compte et abonnement",
+            "icon": "circle-user-round",
+            "expanded": false,
+            "pages": [
+              "fr/compte-et-abonnement/parametres-du-compte",
+              "fr/compte-et-abonnement/abonnement-et-facturation"
             ]
           }
         ]
