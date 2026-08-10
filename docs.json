@@ -45,7 +45,12 @@
             "group": "Menus",
             "icon": "book-open",
             "expanded": false,
-            "pages": ["en/menus/overview", "en/menus/categories", "en/menus/products"]
+            "pages": [
+              "en/menus/overview",
+              "en/menus/categories",
+              "en/menus/products",
+              "en/menus/options-and-extras"
+            ]
           }
         ]
       },
@@ -66,7 +71,12 @@
             "group": "Menus",
             "icon": "book-open",
             "expanded": false,
-            "pages": ["fr/menus/vue-ensemble", "fr/menus/categories", "fr/menus/produits"]
+            "pages": [
+              "fr/menus/vue-ensemble",
+              "fr/menus/categories",
+              "fr/menus/produits",
+              "fr/menus/options-et-supplements"
+            ]
           }
         ]
       }

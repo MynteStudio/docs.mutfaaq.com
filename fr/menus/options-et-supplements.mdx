@@ -1,0 +1,96 @@
+---
+title: Options et suppléments
+description: Permettez aux clients de personnaliser les produits avec des choix et des suppléments.
+---
+
+Les options permettent aux clients de personnaliser un produit. Un burger peut, par exemple, proposer un choix d’accompagnement, une préférence de cuisson ou des suppléments payants.
+
+Dans Mutfaaq, les options sont organisées en **groupes d’options**. Un groupe définit ce que le client choisit et combien d’options il peut sélectionner.
+
+<Note>
+  Une option appartient au menu actuel, et non à un seul produit. Vous pouvez gérer toutes les options du menu depuis **Options** dans la barre latérale et réutiliser la même option dans plusieurs groupes ou produits.
+</Note>
+
+## Comprendre les groupes d’options
+
+Voici trois exemples courants :
+
+| Groupe | Options | Règle de sélection |
+| --- | --- | --- |
+| Choix d’accompagnement | Frites, salade ou riz | Un choix obligatoire |
+| Suppléments | Fromage, avocat ou bacon | Plusieurs choix facultatifs sans limite |
+| Sauces | Ketchup, mayonnaise ou barbecue | Jusqu’à 2 choix facultatifs |
+
+Chaque option peut être gratuite ou avoir un prix supplémentaire.
+
+## Créer un groupe d’options
+
+<Steps>
+  <Step title="Ouvrez le produit">
+    Depuis **Modifier le menu**, sélectionnez le produit que les clients doivent pouvoir personnaliser.
+  </Step>
+  <Step title="Créez un groupe">
+    Sur la page du produit, trouvez la section **Groupes d’options**, puis sélectionnez **Créer un groupe d’options**. Le nouveau groupe est associé à ce produit.
+  </Step>
+  <Step title="Nommez le groupe">
+    Saisissez un nom destiné aux clients, comme **Choix d’accompagnement** ou **Suppléments**.
+
+    Laissez **Traduire le nom du groupe d’options** activé, sauf si le nom doit rester identique dans toutes les langues.
+  </Step>
+  <Step title="Choisissez la règle de sélection">
+    Décidez si les clients doivent faire un choix, peuvent sélectionner autant d’options qu’ils le souhaitent ou doivent respecter un maximum.
+  </Step>
+  <Step title="Ajoutez les options">
+    Sélectionnez **Ajouter une option**, puis choisissez **Créer une option** ou **Utiliser une option existante**.
+
+    Toute nouvelle option rejoint la bibliothèque du menu actuel. Elle apparaît ensuite dans **Options**, dans la barre latérale, et peut être réutilisée dans d’autres groupes.
+  </Step>
+</Steps>
+
+## Choisir une règle de sélection
+
+| Règle | Expérience du client | Exemple |
+| --- | --- | --- |
+| **Un seul choix obligatoire** | Le client doit sélectionner exactement une option. | Choisir les frites ou la salade. |
+| **Un ou plusieurs choix facultatifs** | Le client peut ne rien choisir ou sélectionner une ou plusieurs options. | Ajouter du fromage, de l’avocat et du bacon. |
+| **Plusieurs choix facultatifs avec un maximum** | Le client peut choisir jusqu’à la limite fixée, entre 2 et 10. | Choisir jusqu’à 2 sauces. |
+
+<Tip>
+  Utilisez un choix obligatoire uniquement lorsque le produit ne peut pas être présenté correctement sans sélection. Utilisez des choix facultatifs pour les suppléments et préférences que les clients peuvent ignorer.
+</Tip>
+
+## Définir le prix des options
+
+Une option peut posséder un **prix par défaut** utilisé partout où elle est réutilisée dans le menu. Laissez le prix à zéro lorsque l’option est incluse sans supplément.
+
+Vous pouvez aussi définir un prix différent dans un groupe précis. Ce prix personnalisé modifie l’option uniquement dans ce groupe, sans changer son prix par défaut ailleurs.
+
+Par exemple, l’option **Avocat** peut normalement coûter 2 USD, mais seulement 1 USD lorsqu’elle est proposée dans une formule spéciale.
+
+## Réutiliser un groupe sur d’autres produits
+
+Vous n’avez pas besoin de reconstruire le même groupe pour chaque produit.
+
+Depuis un produit, sélectionnez **Importer un groupe d’options**, choisissez un groupe appartenant à un autre produit du même menu, puis décidez de son fonctionnement :
+
+| Méthode | Fonctionnement | Recommandée pour |
+| --- | --- | --- |
+| **Conserver le lien** | Le même groupe est partagé entre plusieurs produits. Les changements de nom, de règle, d’options, d’ordre et de prix apparaissent partout où il est utilisé. | Un unique groupe **Suppléments** partagé par tous les burgers. |
+| **Créer une copie indépendante** | Mutfaaq crée une copie indépendante du groupe. Les changements futurs n’affectent pas l’original. | Des produits similaires dont les choix devront ensuite évoluer séparément. |
+
+Vous pouvez aussi utiliser **Partager le groupe** pour associer directement un groupe existant à plusieurs produits.
+
+<Warning>
+  Avant de modifier un groupe partagé, consultez la liste des produits qui l’utilisent. Vos changements apparaîtront sur chaque produit associé.
+</Warning>
+
+## Gérer la visibilité et le stock des options
+
+Chaque option possède son propre état de visibilité et de stock :
+
+- une option inactive est masquée partout où elle est utilisée ;
+- une option en rupture de stock reste visible, mais ne peut pas être sélectionnée.
+
+Une option peut aussi partager son stock avec un produit du même menu. Par exemple, associez l’option **Supplément frites** au produit **Frites**. Lorsque Frites passe en rupture de stock, Supplément frites suit automatiquement le même état.
+
+Utilisez un stock indépendant lorsque l’option ne dépend pas de la quantité d’un autre produit.

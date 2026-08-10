@@ -1,0 +1,96 @@
+---
+title: Options & extras
+description: Let customers customize products with choices and extras.
+---
+
+Options let customers customize a product. For example, a burger can offer a choice of side, a cooking preference, or paid extras.
+
+Options are organized into **modifier groups** in Mutfaaq. A group defines what customers are choosing and how many options they can select.
+
+<Note>
+  An option belongs to the current menu, not to a single product. You can manage all menu options from **Modifiers** in the sidebar and reuse the same option in several groups or products.
+</Note>
+
+## Understand option groups
+
+Here are three common examples:
+
+| Group | Options | Selection rule |
+| --- | --- | --- |
+| Choice of side | Fries, salad, or rice | One required choice |
+| Extras | Cheese, avocado, or bacon | Any number of optional choices |
+| Sauces | Ketchup, mayonnaise, or barbecue | Up to 2 optional choices |
+
+Each option can be free or have an additional price.
+
+## Create an option group
+
+<Steps>
+  <Step title="Open the product">
+    From **Edit menu**, select the product you want customers to customize.
+  </Step>
+  <Step title="Create a group">
+    On the product page, find the **Modifier groups** section, then select **Create modifier group**. The new group is attached to this product.
+  </Step>
+  <Step title="Name the group">
+    Enter a customer-facing name, such as **Choice of side** or **Extras**.
+
+    Keep **Translate modifier group name** enabled unless the name must remain unchanged in every language.
+  </Step>
+  <Step title="Choose the selection rule">
+    Decide whether customers must make one choice, may select any number of options, or may select up to a maximum.
+  </Step>
+  <Step title="Add options">
+    Select **Add modifier**, then choose **Create new** or **Use existing**.
+
+    A newly created option is added to the current menu’s option library. It then appears under **Modifiers** in the sidebar and can be reused in other groups.
+  </Step>
+</Steps>
+
+## Choose a selection rule
+
+| Rule | Customer experience | Example |
+| --- | --- | --- |
+| **Single required choice** | The customer must select exactly one option. | Choose fries or salad. |
+| **Single or multiple optional choices** | The customer may select none, one, or several options. | Add cheese, avocado, and bacon. |
+| **Multiple optional choices with a maximum** | The customer may select up to the limit you set, from 2 to 10. | Choose up to 2 sauces. |
+
+<Tip>
+  Use a required choice only when the product cannot be presented correctly without a selection. Use optional choices for extras and preferences that customers can skip.
+</Tip>
+
+## Set option prices
+
+An option can have a **default price** that follows it wherever it is reused in the menu. Leave the price at zero when the option is included at no extra cost.
+
+You can also set a different price for one specific group. This price override changes the option only in that group without changing its default price elsewhere.
+
+For example, **Avocado** may normally cost 2 USD, but cost 1 USD when offered in a special meal group.
+
+## Reuse groups on other products
+
+You do not need to rebuild the same group for every product.
+
+From a product, select **Import modifier group**, choose a group from another product in the same menu, then decide how it should behave:
+
+| Method | How it works | Best for |
+| --- | --- | --- |
+| **Keep linked** | The same group is shared by several products. Changes to its name, rules, options, order, and prices appear everywhere it is used. | A single **Extras** group shared by all burgers. |
+| **Make a detached copy** | Mutfaaq creates an independent copy of the group. Future group changes do not affect the original. | Similar products that need different choices later. |
+
+You can also use **Share group** to attach an existing group directly to several products.
+
+<Warning>
+  Before editing a shared group, check the list of products using it. Your changes will appear on every linked product.
+</Warning>
+
+## Manage option availability and stock
+
+Each option has its own visibility and stock state:
+
+- an inactive option is hidden everywhere it is used;
+- an out-of-stock option remains visible but cannot be selected.
+
+An option can also share stock with a product in the same menu. For example, link the **Extra fries** option to the **Fries** product. When Fries is marked out of stock, Extra fries automatically follows the same stock state.
+
+Use independent stock when the option does not depend on the quantity of another product.
