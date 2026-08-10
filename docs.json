@@ -50,7 +50,8 @@
               "en/menus/categories",
               "en/menus/products",
               "en/menus/options-and-extras",
-              "en/menus/availability-and-stock"
+              "en/menus/availability-and-stock",
+              "en/menus/promotions"
             ]
           }
         ]
@@ -77,7 +78,8 @@
               "fr/menus/categories",
               "fr/menus/produits",
               "fr/menus/options-et-supplements",
-              "fr/menus/disponibilite-et-stock"
+              "fr/menus/disponibilite-et-stock",
+              "fr/menus/promotions"
             ]
           }
         ]
