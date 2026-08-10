@@ -45,7 +45,7 @@
             "group": "Menus",
             "icon": "book-open",
             "expanded": false,
-            "pages": ["en/menus/overview"]
+            "pages": ["en/menus/overview", "en/menus/categories", "en/menus/products"]
           }
         ]
       },
@@ -66,7 +66,7 @@
             "group": "Menus",
             "icon": "book-open",
             "expanded": false,
-            "pages": ["fr/menus/vue-ensemble"]
+            "pages": ["fr/menus/vue-ensemble", "fr/menus/categories", "fr/menus/produits"]
           }
         ]
       }
