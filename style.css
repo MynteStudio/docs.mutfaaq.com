@@ -191,6 +191,15 @@ img.nav-logo {
   color: rgb(var(--primary-light));
 }
 
+.trial-duration {
+  color: rgb(var(--gray-950));
+  font-weight: 700;
+}
+
+.dark .trial-duration {
+  color: white;
+}
+
 @media (min-width: 1024px) {
   #navbar {
     pointer-events: none;
@@ -204,7 +213,7 @@ img.nav-logo {
     top: 0;
   }
 
-  #sidebar-content div:has(> button[aria-label='Open search']) {
+  #sidebar-content div:has(> #search-bar-entry) {
     position: fixed;
     top: 10px;
     left: 50%;
@@ -213,12 +222,12 @@ img.nav-logo {
     transform: translateX(-50%);
   }
 
-  #sidebar-content button[aria-label='Open search'] {
+  #sidebar-content #search-bar-entry {
     border: 1px solid rgb(var(--primary) / 40%);
     box-shadow: 0 1px 8px rgb(var(--primary) / 8%);
   }
 
-  #sidebar-content button[aria-label='Open search']:hover {
+  #sidebar-content #search-bar-entry:hover {
     border-color: rgb(var(--primary) / 55%);
     box-shadow: 0 2px 12px rgb(var(--primary) / 12%);
   }
